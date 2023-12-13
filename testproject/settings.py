@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +26,7 @@ SECRET_KEY = "django-insecure-#p9rsn_$sd=3d6m*$zc!+fpo!tb%4t-%j7@n_5p!3-__dv)39p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["test-w2yx.onrender.com"]
+ALLOWED_HOSTS = ["test-w2yx.onrender.com", '127.0.0.1']
 
 
 # Application definition
@@ -73,13 +74,23 @@ WSGI_APPLICATION = "testproject.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
-    }
-}
+#DATABASES = {
+    #"default": {
+        #"ENGINE": "django.db.backends.sqlite3",
+       # "NAME": BASE_DIR / "db.sqlite3",
+    #}
+#}
 
+# Database
+# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
+
+DATABASES = {
+    'default': dj_database_url.config(
+        # Feel free to alter this value to suit your needs.
+        default='postgres://test_user:YNteVVbIpnQGzDGkoEviZ32mLn15i6B1@dpg-clsv7gm4e00s73an3vj0-a.frankfurt-postgres.render.com/test_db_ivyh',
+        conn_max_age=600
+    )
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
