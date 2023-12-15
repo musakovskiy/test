@@ -88,7 +88,7 @@ WSGI_APPLICATION = "testproject.wsgi.application"
 DATABASES = {
     'default': dj_database_url.config(
         # Feel free to alter this value to suit your needs.
-        default='postgres://test_user:S51qSacfxFWlYXxizun1whhSHsraUfx6@dpg-clua07ud3nmc73a8ok50-a.oregon-postgres.render.com/test_db_jg66',
+        default="postgres://test_user:S51qSacfxFWlYXxizun1whhSHsraUfx6@dpg-clua07ud3nmc73a8ok50-a/test_db_jg66",
         conn_max_age=600
     )
 }
