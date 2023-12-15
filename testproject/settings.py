@@ -72,23 +72,11 @@ TEMPLATES = [
 WSGI_APPLICATION = "testproject.wsgi.application"
 
 
-# Database
-# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
-
-#DATABASES = {
-    #"default": {
-        #"ENGINE": "django.db.backends.sqlite3",
-       # "NAME": BASE_DIR / "db.sqlite3",
-    #}
-#}
-
-# Database
-# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
     'default': dj_database_url.config(
         # Feel free to alter this value to suit your needs.
-        default="postgres://test_user:S51qSacfxFWlYXxizun1whhSHsraUfx6@dpg-clua07ud3nmc73a8ok50-a/test_db_jg66",
+        default="postgres://test_user:cJ8SkbWFPFoJwPYjXJUQupIGdM8pm0Uy@dpg-cluaifed3nmc73a8v5a0-a/test_db_po2z",
         conn_max_age=600
     )
 }

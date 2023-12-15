@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="918f6ffc-5ffb-4b44-b017-8063f9d0b89b" name="Changes" comment="added static manager  whitenoise">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="918f6ffc-5ffb-4b44-b017-8063f9d0b89b" name="Changes" comment="added static manager" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702667217020</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added static manager">
+      <option name="closed" value="true" />
+      <created>1702668352765</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702668352765</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -181,7 +187,8 @@
     <MESSAGE value="updated requirements.txt" />
     <MESSAGE value="updated requirements.txt 1" />
     <MESSAGE value="added static manager  whitenoise" />
-    <option name="LAST_COMMIT_MESSAGE" value="added static manager  whitenoise" />
+    <MESSAGE value="added static manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="added static manager" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
