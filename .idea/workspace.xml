@@ -173,7 +173,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702668352765</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added static manager">
+      <option name="closed" value="true" />
+      <created>1702668731141</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1702668731141</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added static manager">
+      <option name="closed" value="true" />
+      <created>1702668746446</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1702668746446</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
